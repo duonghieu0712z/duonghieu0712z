@@ -1,22 +1,9 @@
-### Hi there 👋
-
-<!--
-**duonghieu0712z/duonghieu0712z** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-![Duong Hieu's Github stats](https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=transparent&show_icons=true&card_width=500)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=duonghieu0712z&layout=compact&theme=transparent&card_width=500)
+<h1 align="center">👋 Hi there! I'm Hieu Duong.</h1>
 
 ![Metrics](/github-metrics.svg)
+
+<center>
+![Duong Hieu's Github stats](https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=transparent&show_icons=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=duonghieu0712z&layout=compact&theme=transparent)
+</center>

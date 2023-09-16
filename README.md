@@ -15,10 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<picture>
-  <img src="https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=tokyonight&show_icons=true" alt="Duong Hieu's Github stats">
-</picture>
+![Duong Hieu's Github stats](https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=tokyonight&show_icons=true)
 
-<picture>
-  <img src="/github-metrics.svg" alt="Metrics">
-</picture>
+![Metrics](/github-metrics.svg)

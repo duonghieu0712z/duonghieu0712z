@@ -16,3 +16,7 @@ Here are some ideas to get you started:
 -->
 
 ![Duong Hieu's GitHub stats](https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=tokyonight&show_icons=true)
+
+<picture>
+  <img src="/github-metrics.svg" alt="Metrics">
+</picture>

@@ -8,6 +8,8 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=duonghieu0712z&theme=dark)
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=duonghieu0712z&theme=dark)](https://git.io/streak-stats)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/output/github-snake.svg">

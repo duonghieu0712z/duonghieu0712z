@@ -6,7 +6,7 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=duonghieu0712z&layout=compact&theme=transparent)
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=duonghieu0712z&theme=dark)](https://git.io/streak-stats)
+![GitHub Streak](https://streak-stats.demolab.com/?user=duonghieu0712z&theme=dark)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/output/github-snake-dark.svg">

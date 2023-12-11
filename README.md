@@ -1,10 +1,12 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&random=false&width=450&lines=%F0%9F%91%8B+Hi+there!+My+name+is+Hieu+Duong." alt="Typing SVG"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&random=false&width=450&lines=I+am+learning+to+be+a+Game+Developer." alt="Typing SVG"/>
-</p>
+<h1>
+  <p align="center">
+    👋 Hi there! My name is Hieu Duong.
+  </p>
+  
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&random=false&width=450&lines=I+am+learning+to+be+a+Game+Developer." alt="Typing SVG"/>
+  </p>
+</h1>
 
 ## 📈 Stats:
 

@@ -1,6 +1,9 @@
 <h1 align="center">👋 Hi there! I'm Hieu Duong.</h1>
 
-![Metrics](/github-metrics.svg)
+## Stats
+<p align="center">
+  ![Metrics](/github-metrics.svg)
+</p>
 
 ![Duong Hieu's Github stats](https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=transparent&show_icons=true)
 

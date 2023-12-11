@@ -8,24 +8,32 @@
   </p>
 </h1>
 
-## About Me
+## 👋 About Me
 
 ## 📈 GitHub Stats
 
+<!--
 <p align="center">
   <img width="48%" src="./github-metrics.svg" alt="Metrics"/>
   <img width="48%" src="https://streak-stats.demolab.com/?user=duonghieu0712z&theme=tokyonight" alt="GitHub Streak"/>
 </p>
+-->
 
 <p align="center">
-  <img height="292px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/overview.svg" alt="Overview statistic visualizations"/>
-  <img height="292px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/languages.svg" alt="Language statistics visualizations"/>
+  <img src="./github-metrics.svg" alt="Metrics"/>
 </p>
 
+<p align="center">
+  <img height="300px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/overview.svg" alt="Overview statistic visualizations"/>
+  <img height="300px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/languages.svg" alt="Language statistics visualizations"/>
+</p>
+
+<!--
 <p align="center">
   <img height="192px" src="https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=transparent&show_icons=true" alt="Duong Hieu's Github stats"/>
   <img height="192px" src="https://github-readme-stats.vercel.app/api/top-langs?username=duonghieu0712z&layout=compact&theme=transparent" alt="Top languages"/>
 </p>
+-->
 
 <p align="center">
   <picture>

@@ -2,7 +2,7 @@
 
 ## Stats
 <p align="center">
-  ![Metrics](/github-metrics.svg)
+  <img src="./github-metrics.svg" alt="stat metrics"/>
 </p>
 
 ![Duong Hieu's Github stats](https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=transparent&show_icons=true)

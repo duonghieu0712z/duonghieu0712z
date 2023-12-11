@@ -18,6 +18,11 @@
 </p>
 
 <p align="center">
+  <img width="48%" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/overview.svg" alt="Overview statistic visualizations"/>
+  <img width="48%" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/languages.svg" alt="Language statistics visualizations"/>
+</p>
+
+<p align="center">
   <img height="192px" src="https://github-readme-stats.vercel.app/api?username=duonghieu0712z&theme=transparent&show_icons=true" alt="Duong Hieu's Github stats"/>
   <img height="192px" src="https://github-readme-stats.vercel.app/api/top-langs?username=duonghieu0712z&layout=compact&theme=transparent" alt="Top languages"/>
 </p>

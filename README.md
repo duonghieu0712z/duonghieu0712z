@@ -4,7 +4,7 @@
   </p>
   
   <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&random=false&width=450&lines=I+am+learning+to+be+a+Game+Developer." alt="About me"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&random=false&width=450&lines=I'm+learning+to+be+a+Game+Developer." alt="About me"/>
   </p>
 </h1>
 

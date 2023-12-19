@@ -24,8 +24,8 @@
 </p>
 
 <p align="center">
-  <img height="200px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/overview.svg" alt="Overview statistic visualizations"/>
-  <img height="200px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/languages.svg" alt="Language statistics visualizations"/>
+  <img height="250px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/overview.svg" alt="Overview statistic visualizations"/>
+  <img height="250px" src="https://raw.githubusercontent.com/duonghieu0712z/GitStats/actions_branch/generated_images/languages.svg" alt="Language statistics visualizations"/>
 </p>
 
 <!--

@@ -1,6 +1,6 @@
 <h1>
   <p align="center">
-    👋 Hi there! My name is Hieu Duong.
+    👋 Hi there! My name is Dương Hiếu.
   </p>
   
   <p align="center">

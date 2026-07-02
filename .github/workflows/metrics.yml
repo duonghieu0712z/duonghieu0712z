@@ -2,44 +2,71 @@ name: Metrics
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-    
-  workflow_dispatch:
-  
+    - cron: "0 0 * * *"
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   github-metrics:
+    name: Github Metrics
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
+
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Create Metrics
+        uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
+          plugin_activity: yes
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
   github-snake:
+    name: GitHub Snake
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    env:
-      GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-            
-      - name: Push to the output branch
-        uses: crazy-max/ghaction-github-pages@v5.0.0
+
+      - name: Upload light snake to gist
+        uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
-          target_branch: output
-          build_dir: dist
-      
+          token: ${{ secrets.GITHUB_TOKEN }}
+          gist_id: ${{ secrets.GIST }}
+          file_path: dist/github-snake.svg
+          gist_file_name: github-snake.svg
+
+      - name: Upload dark snake to gist
+        uses: exuanbo/actions-deploy-gist@v1.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          gist_id: ${{ secrets.GIST }}
+          file_path: dist/github-snake-dark.svg
+          gist_file_name: github-snake-dark.svg
+
+      - name: Upload ocean snake to gist
+        uses: exuanbo/actions-deploy-gist@v1.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          gist_id: ${{ secrets.GIST }}
+          file_path: dist/ocean.gif
+          gist_file_name: ocean.gif
+          file_type: binary

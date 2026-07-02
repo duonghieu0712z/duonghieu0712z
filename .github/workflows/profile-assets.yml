@@ -1,4 +1,4 @@
-name: Metrics
+name: Profile Assets
 
 on:
   schedule:
@@ -12,12 +12,12 @@ permissions:
   contents: write
 
 jobs:
-  github-metrics:
-    name: Github Metrics
+  metrics:
+    name: Generate metrics
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Metrics
+      - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
@@ -29,12 +29,12 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_pinned: 6
 
-  github-snake:
-    name: GitHub Snake
+  snake:
+    name: Generate contribution snake
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake
+      - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -42,7 +42,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Upload snakes to gist
+      - name: Upload snake SVGs to gist
         env:
           GIST_ID: ${{ secrets.GIST_ID }}
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}

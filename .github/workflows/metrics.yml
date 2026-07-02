@@ -44,7 +44,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Upload light snake to gist
         uses: exuanbo/actions-deploy-gist@v1.1.4
@@ -61,12 +60,3 @@ jobs:
           gist_id: ${{ secrets.GIST }}
           file_path: dist/github-snake-dark.svg
           gist_file_name: github-snake-dark.svg
-
-      - name: Upload ocean snake to gist
-        uses: exuanbo/actions-deploy-gist@v1.1.4
-        with:
-          token: ${{ secrets.GIST_TOKEN }}
-          gist_id: ${{ secrets.GIST }}
-          file_path: dist/ocean.gif
-          gist_file_name: ocean.gif
-          file_type: binary

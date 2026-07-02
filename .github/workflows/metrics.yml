@@ -24,13 +24,10 @@ jobs:
           token: ${{ secrets.GIST_TOKEN }}
           output_action: gist
           committer_gist: ${{ secrets.GIST_ID }}
-          plugin_repositories: yes
-          plugin_repositories_pinned: 6
-          plugin_activity: yes
-          plugin_achievements: yes
-          plugin_achievements_display: compact
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
 
   github-snake:
     name: GitHub Snake

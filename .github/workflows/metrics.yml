@@ -17,13 +17,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Create Metrics
+      - name: Generate Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.GIST_TOKEN }}
           output_action: gist
-          committer_gist: ${{ secrets.GIST }}
+          committer_gist: ${{ secrets.GIST_ID }}
           plugin_repositories: yes
           plugin_repositories_pinned: 6
           plugin_activity: yes
@@ -49,7 +49,7 @@ jobs:
         uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
           token: ${{ secrets.GIST_TOKEN }}
-          gist_id: ${{ secrets.GIST }}
+          gist_id: ${{ secrets.GIST_ID }}
           file_path: dist/github-snake.svg
           gist_file_name: github-snake.svg
 
@@ -57,6 +57,6 @@ jobs:
         uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
           token: ${{ secrets.GIST_TOKEN }}
-          gist_id: ${{ secrets.GIST }}
+          gist_id: ${{ secrets.GIST_ID }}
           file_path: dist/github-snake-dark.svg
           gist_file_name: github-snake-dark.svg

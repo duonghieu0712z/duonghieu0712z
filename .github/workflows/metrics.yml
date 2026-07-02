@@ -21,7 +21,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIST_TOKEN }}
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_repositories: yes

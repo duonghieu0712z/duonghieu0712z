@@ -49,7 +49,7 @@ jobs:
       - name: Upload light snake to gist
         uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIST_TOKEN }}
           gist_id: ${{ secrets.GIST }}
           file_path: dist/github-snake.svg
           gist_file_name: github-snake.svg
@@ -57,7 +57,7 @@ jobs:
       - name: Upload dark snake to gist
         uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIST_TOKEN }}
           gist_id: ${{ secrets.GIST }}
           file_path: dist/github-snake-dark.svg
           gist_file_name: github-snake-dark.svg
@@ -65,7 +65,7 @@ jobs:
       - name: Upload ocean snake to gist
         uses: exuanbo/actions-deploy-gist@v1.1.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GIST_TOKEN }}
           gist_id: ${{ secrets.GIST }}
           file_path: dist/ocean.gif
           gist_file_name: ocean.gif

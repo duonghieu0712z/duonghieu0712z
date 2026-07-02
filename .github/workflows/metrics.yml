@@ -42,18 +42,20 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Upload light snake to gist
-        uses: exuanbo/actions-deploy-gist@v1.1.4
-        with:
-          token: ${{ secrets.GIST_TOKEN }}
-          gist_id: ${{ secrets.GIST_ID }}
-          file_path: dist/github-snake.svg
-          gist_file_name: github-snake.svg
+      - name: Upload snakes to gist
+        env:
+          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          jq -n \
+            --rawfile light dist/github-snake.svg \
+            --rawfile dark dist/github-snake-dark.svg \
+            '{files: {"github-snake.svg": {content: $light}, "github-snake-dark.svg": {content: $dark}}}' > payload.json
 
-      - name: Upload dark snake to gist
-        uses: exuanbo/actions-deploy-gist@v1.1.4
-        with:
-          token: ${{ secrets.GIST_TOKEN }}
-          gist_id: ${{ secrets.GIST_ID }}
-          file_path: dist/github-snake-dark.svg
-          gist_file_name: github-snake-dark.svg
+          curl --fail \
+            --request PATCH \
+            --header "Authorization: Bearer $GIST_TOKEN" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/gists/$GIST_ID" \
+            --data @payload.json

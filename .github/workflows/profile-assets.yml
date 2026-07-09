@@ -48,6 +48,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: gh-pages
+          keep_history: true
           build_dir: dist
           jekyll: false
           commit_message: "ci(profile-assets): update profile assets"

@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 jobs:
-  metrics:
-    name: Generate metrics
+  assets:
+    name: Generate profile assets
     runs-on: ubuntu-latest
 
     steps:
@@ -21,19 +21,14 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
-          token: ${{ secrets.GIST_TOKEN }}
-          output_action: gist
-          committer_gist: ${{ secrets.GIST_ID }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          output_action: none
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_repositories: yes
           plugin_repositories_pinned: 6
 
-  snake:
-    name: Generate contribution snake
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
@@ -42,20 +37,15 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Upload snake SVGs to gist
-        env:
-          GIST_ID: ${{ secrets.GIST_ID }}
-          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-        run: |
-          jq -n \
-            --rawfile light dist/github-snake.svg \
-            --rawfile dark dist/github-snake-dark.svg \
-            '{files: {"github-snake.svg": {content: $light}, "github-snake-dark.svg": {content: $dark}}}' > payload.json
+      - name: Copy metrics SVG
+        run: cp /metrics_renders/metrics.svg dist/metrics.svg
 
-          curl --fail-with-body \
-            --request PATCH \
-            --header "Authorization: Bearer $GIST_TOKEN" \
-            --header "Accept: application/vnd.github+json" \
-            --header "X-GitHub-Api-Version: 2026-03-10" \
-            "https://api.github.com/gists/$GIST_ID" \
-            --data @payload.json
+      - name: Publish profile assets to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: gh-pages
+          build_dir: dist
+          jekyll: false
+          commit_message: "ci(profile-assets): update profile assets"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

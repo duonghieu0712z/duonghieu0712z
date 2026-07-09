@@ -17,6 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Prepare assets directory
+        run: mkdir -p dist
+
       - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:

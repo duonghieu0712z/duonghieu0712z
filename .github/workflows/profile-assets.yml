@@ -27,7 +27,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
           output_action: none
-          config_display: columns
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_repositories: yes

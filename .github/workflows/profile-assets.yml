@@ -52,10 +52,10 @@ jobs:
             --rawfile dark dist/github-snake-dark.svg \
             '{files: {"github-snake.svg": {content: $light}, "github-snake-dark.svg": {content: $dark}}}' > payload.json
 
-          curl --fail \
+          curl --fail-with-body \
             --request PATCH \
             --header "Authorization: Bearer $GIST_TOKEN" \
             --header "Accept: application/vnd.github+json" \
-            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --header "X-GitHub-Api-Version: 2026-03-10" \
             "https://api.github.com/gists/$GIST_ID" \
             --data @payload.json

@@ -38,12 +38,6 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_display: compact
 
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_visibility: public
-          plugin_activity_timestamps: yes
-          plugin_activity_filter: push, issue, ref/create, ref/delete, release, review, comment, wiki, fork, star, public, member
-
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
@@ -59,11 +53,6 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_order: featured, pinned, starred, random
           plugin_repositories_pinned: 6
-
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: mastered
-          plugin_topics_sort: stars
 
   snake-assets:
     name: Generate snake assets

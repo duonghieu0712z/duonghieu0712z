@@ -31,8 +31,9 @@ jobs:
           config_display: large
           output_action: none
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
           plugin_repositories: yes
+          plugin_repositories_order: featured, pinned, starred, random
           plugin_repositories_pinned: 6
 
       - name: Generate snake SVGs

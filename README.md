@@ -1,5 +1,8 @@
 <p align="center">
-  <h1 style="color:#36BCF7FF;">DαϊѕуZ</h1>
+  <img src="assets/profile-title.svg" alt="duonghieu0712z">
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=520&lines=A+developer+building+fantasy+worlds" alt="Typing SVG">
 </p>
 

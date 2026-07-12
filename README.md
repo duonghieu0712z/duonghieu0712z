@@ -20,7 +20,9 @@
   </picture>
 </p>
 
-<img width="100%" src="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/gh-pages/metrics.svg" alt="Metrics">
+<a>
+  <img width="100%" src="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/gh-pages/metrics.svg" alt="Metrics">
+</a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/gh-pages/github-snake-dark.svg">

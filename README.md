@@ -7,8 +7,17 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/overview.svg" alt="Overview">
-  <img src="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/languages.svg" alt="Languages">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/overview.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/overview.svg#gh-light-mode-only">
+    <img src="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/overview.svg#gh-light-mode-only" alt="Overview">
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/languages.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/languages.svg#gh-light-mode-only">
+    <img src="https://raw.githubusercontent.com/duonghieu0712z/github-stats/generated/languages.svg#gh-light-mode-only" alt="Languages">
+  </picture>
 </p>
 
 <img width="100%" src="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/gh-pages/metrics.svg" alt="Metrics">

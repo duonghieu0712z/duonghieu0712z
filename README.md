@@ -11,4 +11,4 @@
 <img width="100%" src="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/gh-pages/github-snake.svg#gh-light-mode-only" alt="github contribution grid snake animation">
 <img width="100%" src="https://raw.githubusercontent.com/duonghieu0712z/duonghieu0712z/gh-pages/github-snake-dark.svg#gh-dark-mode-only" alt="github contribution grid snake animation">
 
-<p align="right"><sub><em>generated with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> and <a href="https://github.com/Platane/snk">Platane/snk</a></em></sub></p>
+<p align="right"><sub><em>generated with <a href="https://github.com/gh-metrics/metrics">gh-metrics/metrics</a> and <a href="https://github.com/Platane/snk">Platane/snk</a></em></sub></p>

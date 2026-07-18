@@ -30,19 +30,19 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            822 Commits
+                            823 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="527.5174220270325" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="527.5174220270325" y="0" width="122.24360735400174" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="649.7610293810342" y="0" width="92.39544025411323" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="742.1564696351475" y="0" width="74.46379810386915" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="816.6202677390166" y="0" width="37.51724928067861" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="854.1375170196952" y="0" width="17.017865205017046" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="871.1553822247123" y="0" width="15.837296561912906" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="886.9926787866252" y="0" width="33.00732121337485" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="527.5207143674708" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="527.5207143674708" y="0" width="122.24437030050362" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="649.7650846679743" y="0" width="92.39601691230794" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="742.1611015802822" y="0" width="74.46426284714293" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="816.6253644274252" y="0" width="37.517483433242646" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="854.1428478606679" y="0" width="17.01797141687555" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="871.1608192775434" y="0" width="15.837395405609298" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="886.9982146831527" y="0" width="33.00178531684721" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -329,18 +329,18 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 139kb of code in 230 edited files across 236 commits over last 14 days</small>
+                <small>estimation from 143kb of code in 237 edited files across 236 commits over last 13 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="920" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="458.2653520152223" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="458.2653520152223" y="0" width="303.57931153779623" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="761.8446635530184" y="0" width="74.09652309289051" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="835.941186645909" y="0" width="61.20601971977167" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="897.1472063656807" y="0" width="13.27244421380384" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="910.4196505794847" y="0" width="9.580349420515482" height="8" fill="#199f4b"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="485.11941007234435" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="485.11941007234435" y="0" width="287.556213513589" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="772.6756235859334" y="0" width="69.04946789195833" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="841.7250914778916" y="0" width="59.82402726180833" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="901.5491187397" y="0" width="10.71590179045278" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="912.2650205301528" y="0" width="7.73497946984721" height="8" fill="#199f4b"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -352,7 +352,7 @@
                                 Vue
                             </div>
                             <small>
-                                <div>49.81%</div>
+                                <div>52.73%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -363,7 +363,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>1.44%</div>
+                                <div>1.16%</div>
                             </small>
                         </div>
                     </section>
@@ -376,7 +376,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>33%</div>
+                                <div>31.26%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -387,20 +387,7 @@
                                 Vim Script
                             </div>
                             <small>
-                                <div>1.04%</div>
-                            </small>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                PowerShell
-                            </div>
-                            <small>
-                                <div>8.05%</div>
+                                <div>0.84%</div>
                             </small>
                         </div>
                     </section>
@@ -413,7 +400,20 @@
                                 CSS
                             </div>
                             <small>
-                                <div>6.65%</div>
+                                <div>7.51%</div>
+                            </small>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                PowerShell
+                            </div>
+                            <small>
+                                <div>6.5%</div>
                             </small>
                         </div>
                     </section>
@@ -667,7 +667,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M7.998 14.5c2.832 0 5-1.98 5-4.5 0-1.463-.68-2.19-1.879-3.383l-.036-.037c-1.013-1.008-2.3-2.29-2.834-4.434-.322.256-.63.579-.864.953-.432.696-.621 1.58-.046 2.73.473.947.67 2.284-.278 3.232-.61.61-1.545.84-2.403.633a2.788 2.788 0 01-1.436-.874A3.21 3.21 0 003 10c0 2.53 2.164 4.5 4.998 4.5zM9.533.753C9.496.34 9.16.009 8.77.146 7.035.75 4.34 3.187 5.997 6.5c.344.689.285 1.218.003 1.5-.419.419-1.54.487-2.04-.832-.173-.454-.659-.762-1.035-.454C2.036 7.44 1.5 8.702 1.5 10c0 3.512 2.998 6 6.498 6s6.5-2.5 6.5-6c0-2.137-1.128-3.26-2.312-4.438-1.19-1.184-2.436-2.425-2.653-4.81z"/>
                             </svg>
-                            Current streak 12 days
+                            Current streak 13 days
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1662,6 +1662,11 @@
                                 <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.588235294117647 0,2.588235294117647 z"/>
                                 <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.588235294117647 1.7,3.588235294117647 z"/>
                             </g>
+                            <g transform="translate(-8.5, 10.823529411764707)">
+                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.176470588235294 0,1.1764705882352942 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.1764705882352942 1.7,2.176470588235294 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1720,7 +1725,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="33.29158110882957 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="33.37645448323066 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -1862,7 +1867,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Developer
-                                    <span class="gh">ranked 7.35m out of 229m users</span>
+                                    <span class="gh">ranked 7.36m out of 229m users</span>
                                     <div class="value-wrapper">
                                         <div class="value">13</div>
                                     </div>
@@ -1959,7 +1964,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="15.577889447236181 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="17.1356783919598 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -1981,10 +1986,10 @@
                                     <span class="prefix"></span>
                                     Deployer
                                     <div class="value-wrapper">
-                                        <div class="value">21</div>
+                                        <div class="value">23</div>
                                     </div>
                                 </div>
-                                <div class="text">Repositories have been deployed 21 times</div>
+                                <div class="text">Repositories have been deployed 23 times</div>
                             </div>
                         </div>
                         <div class="achievement c largeable-width-half">
@@ -2279,7 +2284,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 17 Jul 2026, 02:09:19  with gh-metrics/metrics@3.35.0-beta</span>
+                <span>Last updated 18 Jul 2026, 01:58:03  with gh-metrics/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
